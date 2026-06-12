@@ -5,7 +5,7 @@ files, run transfers, expose/mount remotes, and schedule jobs, all from one Dock
 container. Every backend option is rendered as a form field carrying rclone's own help
 text as a tooltip and its default value, so you never have to memorize flags.
 
-![rclone GUI dashboard](docs/images/dashboard.png)
+![rclone GUI dashboard](assets/dashboard.png)
 
 ## Features
 
@@ -59,9 +59,6 @@ npm --workspace web run dev          # SPA on Vite's port, proxying /api -> :300
 npm --workspace server run test      # backend tests (real rclone rcd, local backend)
 npm --workspace web run test         # frontend tests (mocked API)
 ```
-
-Architecture and conventions are documented in [`CLAUDE.md`](./CLAUDE.md); design specs
-and implementation plans live under [`docs/superpowers/`](./docs/superpowers/).
 
 ## Roadmap / future enhancements
 
