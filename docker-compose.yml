@@ -1,0 +1,12 @@
+services:
+  rclone-gui:
+    build: .
+    image: rclone-gui:latest
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./config:/config
+    environment:
+      # Set a password to require login; omit to run unprotected (a banner is shown).
+      - GUI_PASSWORD=${GUI_PASSWORD:-}
+    restart: unless-stopped

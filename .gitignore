@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.rclone/
+*.log
+.DS_Store
+.superpowers/

@@ -1,0 +1,13 @@
+{
+  "name": "rclone-gui",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "workspaces": ["server", "web"],
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "fetch-rclone": "bash scripts/fetch-rclone.sh",
+    "dev": "npm --workspace server run dev",
+    "test": "npm --workspace server run test"
+  }
+}
