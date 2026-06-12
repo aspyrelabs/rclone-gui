@@ -5,6 +5,8 @@ files, run transfers, expose/mount remotes, and schedule jobs, all from one Dock
 container. Every backend option is rendered as a form field carrying rclone's own help
 text as a tooltip and its default value, so you never have to memorize flags.
 
+![rclone GUI dashboard](docs/images/dashboard.png)
+
 ## Features
 
 - **Remotes & configuration** — create / edit / delete / test remotes across all 70+
